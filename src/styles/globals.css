@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  @apply bg-[#141718];
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  @apply text-white;
+}
+
+.primary-bg{
+  @apply bg-[#d3ba2a];
+}
+
+.sitebutton{
+  @apply bg-[#d3ba2a];
+  @apply p-2;
+  @apply rounded-md;
+  @apply stripe-bg;
+  @apply cursor-pointer;
+  @apply hover:scale-105;
+  @apply transition-all;
+}
+
+.info{
+  transition: 0.3s ease all;
+}
+
+.info:hover{
+  box-shadow: 0 0 10px 5px #ffd90071;
+}
+
+.grad-bg{
+  background-image: url(../assets/background.png);
+  background-size:cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.stripe-bg{
+  background-image: repeating-linear-gradient(-45deg, transparent, transparent 1rem, rgba(0, 0, 0, .10) 0, rgba(0, 0, 0, .10) 2rem);
+}
+
+.progress{
+  @apply rounded-md;
+}
+
+.cases{
+  background-image: url(../assets/banner_battles.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mines{
+  background-image: url(../assets/banner_mines.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.coinflip{
+  background-image: url(../assets/banner_coinflip.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.soon{
+  background-image: url(../assets/banner_soon.png);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
